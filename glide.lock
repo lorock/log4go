@@ -1,0 +1,6 @@
+hash: 7099a539cd7cefd5d1122f2a7ecc5f6741cb40bbe0e488529cabfa392360b53d
+updated: 2018-09-11T15:00:26.698065571+08:00
+imports:
+- name: github.com/toolkits/file
+  version: a5b3c5147e07f934d9f9d00b901a20b2529f1a57
+testImports: []

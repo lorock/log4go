@@ -1,0 +1,35 @@
+{
+    // 代理设置
+    "http.proxy": "http://127.0.0.1:1080",
+    // VScode 文件搜索区域配置
+    "search.exclude": {
+        "**/dist": true,
+        "**/build": true,
+        "**/elehukouben": true,
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/.vscode": false,
+        "**/yarn.lock": true,
+        "**/tmp": true
+    },
+    // "go.gopath": "${workspaceRoot}",
+    "go.goroot": "/data/gosdk/go",
+    //  这个配置取决你自己的go的路径， 应该可以忽略
+    "go.buildOnSave": true,
+    "go.lintOnSave": true,
+    "go.vetOnSave": true,
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintTool": "golint",
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatOnSave": true,
+    "go.formatTool": "gofmt",
+    "go.formatFlags": [],
+    "go.gocodeAutoBuild": false
+}

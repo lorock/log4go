@@ -1,0 +1,4 @@
+package: github.com/lorock/log4go
+import:
+- package: github.com/lorock/log4go
+- package: github.com/toolkits/file

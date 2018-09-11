@@ -24,11 +24,11 @@ Two new features are supported, one is Json config style, and the other is defer
 
 First, get the code from this repo. 
 
-```go get github.com/jeanphorn/log4go```
+```go get github.com/lorock/log4go```
 
 Then import it to you project.
 
-```import log "github.com/jeanphorn/log4go"```
+```import log "github.com/lorock/log4go"```
 
 
 ## Examples
@@ -77,7 +77,7 @@ Code example:
 package main
 
 import (
-	log "github.com/jeanphorn/log4go"
+	log "github.com/lorock/log4go"
 )
 
 func main() {
